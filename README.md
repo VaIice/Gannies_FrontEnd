@@ -37,7 +37,7 @@
 | 엽*정|
 ----
 ## 📚 팀 리포지토리
-https://github.com/Gannies
+#####https://github.com/Gannies
 
 ----
 ## 🔑 핵심 기능
