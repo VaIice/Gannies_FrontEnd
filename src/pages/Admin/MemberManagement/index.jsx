@@ -41,6 +41,7 @@ import {
   getUsers,
   blockUser,
   unblockUser,
+  sendUnblockNoticeEmail,
   deleteUser,
   sendEmail,
 } from '@/api/adminApi';
@@ -213,6 +214,7 @@ export default function MemberManagement() {
     try {
       if (isUserBanCancel) {
         await unblockUser({ userId });
+        await sendUnblockNoticeEmail({ userId });
         setQuery((prev) => {
           return {
             ...prev,

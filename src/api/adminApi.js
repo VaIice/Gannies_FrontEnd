@@ -42,6 +42,13 @@ export const unblockUser = async (userIdData) => {
   return response;
 };
 
+//회원 정지 취소 후 이메일 전송
+export const sendUnblockNoticeEmail = async (userId) => {
+  const url = 'admin/email?type=suspensionCancel';
+  const response = await cookieApi.post(url, userId);
+  return response;
+};
+
 //회원 페이지 단위로 조회
 export const getUsers = async (params) => {
   const url = '/admin/users';
