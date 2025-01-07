@@ -28,7 +28,7 @@ export const links = [
       icon: link3,
     },
     {
-      path: 'http://www.koreanurse.or.kr/main.html',
+      path: 'https://recruit.nurscape.net/',
       title: '너스케입 커리어',
       subtitle: '',
       icon: link4,
