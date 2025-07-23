@@ -29,18 +29,6 @@
 ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
 ![Amazon Route 53](https://img.shields.io/badge/Amazon%20Route%2053-4053D6?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-## 🎨 Frontend
-React, TypeScript, styled-components
-
-## 🧠 State & Real-time
-Redux, Redux Persist, Socket.IO
-
-## ☁ Deployment & Infra
-Vercel, AWS S3, Route 53
-
-## 🛠 Tools
-Git
-
 
 ----
 #### 🖥 BackEnd
